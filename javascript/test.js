@@ -25,7 +25,6 @@ textbox.onkeyup = function() {
         } else {
             if (textbox.value === easyText) {
                 reset();
-                alert("correct");
                 correct++;
             } else {
                 reset();
