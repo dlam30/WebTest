@@ -1,0 +1,106 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    border: none;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+}
+
+#container {
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+#options {
+    height: 100%;
+    width: 10%;
+    background: white;
+    text-align: center;
+    border-right: 1px solid black;
+    float: left;
+}
+
+#test-area {
+    height: 100%;
+    width: 40%;
+    background: white;
+    text-align: center;
+    border-right: 1px solid black;
+    float: left;
+}
+
+#type-area {
+    height: 100%;
+    width: 40%;
+    background: white;
+    text-align: center;
+    float: left;
+}
+
+#current-result {
+    height: 100%;
+    width: 9.6%;
+    background: white;
+    text-align: center;
+    float: left;
+    border-left: 1px solid black;
+}
+
+#top {
+    height: 50vh;
+    background: white;
+    border-bottom: 1px solid black;
+    display: block;
+}
+
+#bottom {
+    height: 50vh;
+    background: white;
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    background: none;
+    border: none;
+    transition: all 0.3s;
+    height: 33.3333333%;
+    outline: none;
+    color: #6A1B9A;
+}
+
+button:hover {
+    background: #6A1B9A;
+    color: white;
+}
+
+#test-text {
+    height: 100%;
+    color: black;
+    text-align: center;
+}
+
+#text {
+    margin-top: 140px;
+    font-size: 40px;
+    font-family: "Verdana", sans-serif;
+}
+
+#textarea {
+    margin-top: 140px;
+    width: 400px;
+    background: none;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    font-family: "Verdana", sans-serif;
+
+}
