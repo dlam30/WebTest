@@ -4,7 +4,7 @@
     <head>
       <meta charset="utf-8">
 
-      <title>The HTML5 Herald</title>
+      <title>Typing Pratice</title>
       <link rel="stylesheet" href="css/style.css">
     </head>
 
@@ -22,16 +22,34 @@
                     </p>
                 </div>
                 <div id="type-area">
-                    <input type="textarea" placeholder="Input your text" id="textarea"/>
+                    <div id="label" class="textarea-container">
+                        <p id="typing">
+
+                        </p>
+                    </div>
+                    <div id="placeholder" class="textarea-container">
+                        <input type="textarea" placeholder="Input your text" id="textarea"/>
+                    </div>
                 </div>
                 <div id="current-result">
-
+                    <p>
+                        <span id="left"></span>/<span id="right"></span>
+                    </p>
                 </div>
             </div>
 
             <div class="box" id="result">
-                <p id="resParagraph">Accuracy: <span id="accu"></span></p>
+                <div id="result-top">
+                    <p>Accuracy: <span id="correct"></span>/<span id="total"></span> words</p>
+                </div>
+                <div id="result-bot">
+                    <p>Time:     <span id="time"></span> seconds</p>
+                </div>
+                <div id="resultBtn">
+                    <button id="return">Retry</button>
+                </div>
             </div>
+
         </div>
 
         <script type="text/javascript" src="javascript/test.js"></script>
