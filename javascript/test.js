@@ -65,6 +65,12 @@ function init() {
 retryBtn.addEventListener("click", function() {
     topContainer.style.display = 'block';
     resultContainer.style.display = 'none';
+
+    // Reset font size to easy mode
+    txt.style.fontSize = '40px';
+    textbox.style.fontSize = '40px';
+    typing.style.fontSize = '40px';
+
     init();
 });
 
