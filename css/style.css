@@ -20,7 +20,7 @@ textarea {
 }
 
 #options {
-    height: 50vh;
+    height: 35vh;
     width: 10%;
     background: white;
     text-align: center;
@@ -29,7 +29,7 @@ textarea {
 }
 
 #test-area {
-    height: 50vh;
+    height: 35vh;
     width: 40%;
     background: white;
     border-right: 1px solid black;
@@ -39,7 +39,7 @@ textarea {
 
 .box {
     width: 100%;
-    height: 50vh;
+    height: 35vh;
     background: white;
     border-bottom: 1px solid black;
     position: absolute;
@@ -114,29 +114,28 @@ button:hover {
 
 #type-area {
     width: 40%;
-    height: 50vh;
+    height: 35vh;
     background: white;
     float: left;
-    display: table;
 }
 
 #placeholder {
     height: 100%;
-    display: table-cell;
+    display: table;
 }
 
 #textarea {
     width: 100%;
-    /*height: 230px;*/
-    padding-top: 50px;
-    margin: auto;
+    height: 100%;
+    /*padding-top: 50px;*/
+    margin: auto 0;
     background: none;
     outline: none;
     border: 0;
     color: black;
     font-size: 40px;
     font-family: "Verdana", sans-serif;
-    display: table-cell;
+    display: table-cell !important;
     text-align: center;
     vertical-align: middle;
     resize: none;
@@ -151,7 +150,7 @@ button:hover {
 
 .textarea-container {
     width: 40%;
-    height: 50vh;
+    height: 35vh;
     position: absolute;
     overflow: hidden;
 }
