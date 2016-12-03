@@ -171,11 +171,11 @@ textbox.onkeyup = function() {
     if (textbox.value.length > 0) {
         textbox.style.opacity = 0;
         // Move the text area away
-        textbox.style.marginLeft = '600px';
+        textbox.style.marginTop = '800px';
         typing.style.display = 1;
     } else {
         textbox.style.opacity = 1;
-        textbox.style.marginLeft = '0px';
+        textbox.style.marginTop = '0px';
         typing.style.display = 0;
     }
     typing.textContent = textbox.value;
