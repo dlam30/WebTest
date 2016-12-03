@@ -170,9 +170,12 @@ textbox.onkeyup = function() {
     testText();
     if (textbox.value.length > 0) {
         textbox.style.opacity = 0;
+        // Move the text area away
+        textbox.style.marginLeft = '600px';
         typing.style.display = 1;
     } else {
         textbox.style.opacity = 1;
+        textbox.style.marginLeft = '0px';
         typing.style.display = 0;
     }
     typing.textContent = textbox.value;
