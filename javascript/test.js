@@ -325,7 +325,14 @@ function getNormalText() {
                    'Do one thing every day that scares you.',
                    'Let your memory be your travel bag.',
                    'The earth laughs in flowers.',
-                   'Water is the driving force of all nature.'
+                   'Water is the driving force of all nature.',
+                   'I have a funny cat.',
+                   'My dog has a blue and yellow hat.',
+                   'Do you have a pet with a hat?',
+                   'Did you pat the cat?',
+                   'I have a red crayon.',
+                   'I see a pink hog in the hut.',
+                   'The pig is fat and pink.'
                   ]
     return normalArray[Math.floor(Math.random() * normalArray.length)];
 }
@@ -365,14 +372,24 @@ function getHardText() {
                  'they live in Bookmarksgrove right at the coast of the Semantics, ' +
                  'a large language ocean.',
 
-                 'A small river named Duden flows by ' +
-                 'their place and supplies it with the necessary regelialia. It ' +
-                 'is a paradisematic country, in which roasted parts of ' +
-                 'sentences fly into your mouth.',
+                 'A small river named Duden flows by their place and supplies ' +
+                 'it with the necessary regelialia. It is a paradisematic country, ' +
+                 'in which roasted parts of sentences fly into your mouth.',
 
-                 'The quick, brown fox jumps over a lazy dog. DJs flock by when ' +
-                 'MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, ' +
-                 'flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex.'
+                 'Thousands of years ago in ancient China, there lived a beautiful young ' +
+                 'woman name Mulan. She lived with her parents and a dog named Little Brother.',
+
+                 'Deep beneath the sea lived a little mermaid named Ariel. She loved exploring ' +
+                 'her underwater home with her friend flounder but dreamed of living on land as a human.',
+
+                 'Deep in the Arabian Desert, Princess Jasmine lived with her father, ' +
+                 'the Sultan of Agrabah, and her tiger, Rajah.',
+
+                 'Long ago in a faraway land, a king and his fair queen were blessed with a beautiful baby girl. ' +
+                 'They named their daughter Aurora, for she filled their lives with light like the dawn.',
+
+                 'King Fergus and Queen Elinor ruled the kingdom of DunBroch in Scotland. ' +
+                 'They had triplet sons and one daughter, the beautiful Princess Merida.'
                   ]
     return hardArray[Math.floor(Math.random() * hardArray.length)];
 }
